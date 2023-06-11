@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Shoot : MonoBehaviour
+public class PlayerShoot : MonoBehaviour
 {
 
     public Transform firePoint;
@@ -13,7 +13,7 @@ public class Shoot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetButtonDown("Fire1"))
+        if (Input.GetButtonDown("Fire1"))
         {
             Shooter();
         }
@@ -26,3 +26,4 @@ public class Shoot : MonoBehaviour
         rb.AddForce(firePoint.up * arrowForce, ForceMode2D.Impulse);
     }
 }
+
