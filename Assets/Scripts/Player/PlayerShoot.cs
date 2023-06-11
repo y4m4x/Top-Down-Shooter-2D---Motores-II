@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerShoot : MonoBehaviour
 {
-
+    [SerializeField] private ParticleSystem testParticleSystem = default;
     public Transform firePoint;
     public GameObject arrowPrefab;
 
@@ -16,6 +16,7 @@ public class PlayerShoot : MonoBehaviour
         if (Input.GetButtonDown("Fire1"))
         {
             Shooter();
+            testParticleSystem.Play();
         }
     }
 
