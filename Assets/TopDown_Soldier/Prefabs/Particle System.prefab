@@ -27,7 +27,7 @@ Transform:
   m_GameObject: {fileID: 8080936839900574646}
   m_LocalRotation: {x: -0, y: -0, z: 0.97394776, w: 0.22677273}
   m_LocalPosition: {x: -0.1, y: -0.4, z: 0}
-  m_LocalScale: {x: 3.3860946, y: 3.618187, z: 1.1827682}
+  m_LocalScale: {x: 0.024185566, y: 0.025843313, z: 0.008448057}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4838,7 +4838,7 @@ ParticleSystemRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -1919440917
-  m_SortingLayer: 3
+  m_SortingLayer: 0
   m_SortingOrder: 0
   m_RenderMode: 0
   m_MeshDistribution: 0

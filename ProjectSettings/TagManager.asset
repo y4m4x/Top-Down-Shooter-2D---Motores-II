@@ -47,6 +47,9 @@ TagManager:
   - name: Collectable
     uniqueID: 1995587623
     locked: 0
+  - name: Particle System
+    uniqueID: 1937209877
+    locked: 0
   - name: Player
     uniqueID: 2259725743
     locked: 0
